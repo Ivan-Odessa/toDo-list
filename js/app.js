@@ -72,7 +72,7 @@
     }
     function checkEmptyList() {
         if (0 === tasks.length) {
-            const emptyListHTML = `<li class="list-toDo__item list-toDo__empty" id="emptyList">\n      <p class="list-toDo__text">Список дел пуст</p>\n      </li>`;
+            const emptyListHTML = `<li class="list-toDo__item list-toDo__empty" id="emptyList">\n      <p class="list-toDo__text">To-do list is empty</p>\n      </li>`;
             todoList.insertAdjacentHTML("afterbegin", emptyListHTML);
         }
         if (tasks.length > 0) {
