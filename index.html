@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Todo</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230215210932">
+	<!--<link rel="shortcut icon" href="favicon.ico">-->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<section class="toDo">
+				<div class="toDo__container">
+
+					<h1 class="toDo__title">ToDo приложение</h1>
+					<div class="toDo__subtitle">Cписок задач на сегодня:</div>
+
+					<!-- List of tasks -->
+					<div class="toDo__card">
+						<ul class="toDo__list list-toDo">
+							<!--<li class="list-toDo__item list-toDo__empty" id="emptyList">
+                        <p class="list-toDo__text">Список дел пуст</p>
+                     </li>-->
+						</ul>
+					</div>
+
+					<!-- form -->
+
+					<div class="toDo__card">
+						<div class="toDo__card-header">Добавить новую задачу</div>
+						<div class="toDo__card-body">
+							<form id="form" class="toDo-form">
+								<div class="toDo-form__group">
+									<input type="text" id="taskInput" class="toDo-form__control" placeholder="Текст задачи">
+									<small class="toDo-form__text toDo-form__text--muted">Что делаем, сколько времени тратим,
+										какой
+										результат получаем</small>
+								</div>
+								<button class="toDo-form__btn">Добавить</button>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230215210932"></script>
+</body>
+
+</html>
